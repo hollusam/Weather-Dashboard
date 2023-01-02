@@ -32,7 +32,7 @@ Here are some guidelines for installing the project on your local machine:
     <li>Enjoy and don't hesitate to contribute! </li>
 </ol>
 
-Project link:https://hollusam.github.io/Work-Day-Scheduler/
+Project link:https://hollusam.github.io/Weather-Dashboard/
 
 ## Tech/framework used
 
