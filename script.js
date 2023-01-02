@@ -36,7 +36,7 @@ function renderHistory(btn) {
 
 function displayWeatherInfo(citySearch) {
   var queryURL =
-    "http://api.openweathermap.org/data/2.5/weather?q=" +
+    "https://api.openweathermap.org/data/2.5/weather?q=" +
     citySearch +
     "&appid=" +
     APIKey;
@@ -62,7 +62,7 @@ function displayWeatherInfo(citySearch) {
     // Storing weather icon
     var iconEl = $("<img>").attr(
       "src",
-      "http://api.openweathermap.org/img/w/" + response.weather[0].icon + ".png"
+      "https://api.openweathermap.org/img/w/" + response.weather[0].icon + ".png"
     );
 
     var today = moment();
@@ -94,7 +94,7 @@ function displayWeatherInfo(citySearch) {
 // Function to display the weather forecast
 function displayWeatherForecast(citySearch) {
   var queryURL =
-    "http://api.openweathermap.org/data/2.5/forecast?q=" +
+    "https://api.openweathermap.org/data/2.5/forecast?q=" +
     citySearch +
     "&appid=" +
     APIKey;
@@ -132,7 +132,7 @@ function displayWeatherForecast(citySearch) {
 
         var forecastIcon = $("<img>").attr(
           "src",
-          "http://api.openweathermap.org/img/w/" +
+          "https://api.openweathermap.org/img/w/" +
             response.list[i].weather[0].icon +
             ".png"
         );
